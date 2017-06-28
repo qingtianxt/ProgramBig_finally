@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+ 
+  <servlet>
+    <servlet-name>zk_expServlet</servlet-name>
+    <servlet-class>servlet.zk_expServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>zk_juzServlet</servlet-name>
+    <servlet-class>servlet.zk_juzServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>zk_qltServlet</servlet-name>
+    <servlet-class>servlet.zk_qltServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>zh_dijServlet</servlet-name>
+    <servlet-class>servlet.zh_dijServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>zh_floServlet</servlet-name>
+    <servlet-class>servlet.zh_floServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>zh_kruServlet</servlet-name>
+    <servlet-class>servlet.zh_kruServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>zh_priServlet</servlet-name>
+    <servlet-class>servlet.zh_priServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <servlet-name>wzw_hfmServlet</servlet-name>
+    <servlet-class>servlet.wzw_hfmServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>wzw_hufServlet</servlet-name>
+    <servlet-class>servlet.wzw_hufServlet</servlet-class>
+  </servlet>
+     <servlet>
+    <servlet-name>wzw_jspServlet</servlet-name>
+    <servlet-class>servlet.wzw_jspServlet</servlet-class>
+  </servlet>
+     <servlet>
+    <servlet-name>wzw_kmpServlet</servlet-name>
+    <servlet-class>servlet.wzw_kmpServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>gxt_heapServlet</servlet-name>
+    <servlet-class>servlet.gxt_heapServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>gxt_quickServlet</servlet-name>
+    <servlet-class>servlet.gxt_quickServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>gxt_shellServlet</servlet-name>
+    <servlet-class>servlet.gxt_shellServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>gxt_mergeServlet</servlet-name>
+    <servlet-class>servlet.gxt_mergeServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>lyx_gjlServlet</servlet-name>
+    <servlet-class>servlet.lyx_gjlServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>lyx_haxServlet</servlet-name>
+    <servlet-class>servlet.lyx_haxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>lyx_tupServlet</servlet-name>
+    <servlet-class>servlet.lyx_tupServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>lyx_scsServlet</servlet-name>
+    <servlet-class>servlet.lyx_scsServlet</servlet-class>
+  </servlet>
+  
+
+
+
+
+
+
+
+
+
+  
+    <servlet-mapping>
+    <servlet-name>zk_expServlet</servlet-name>
+    <url-pattern>/servlet/zk_expServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zk_juzServlet</servlet-name>
+    <url-pattern>/servlet/zk_juzServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zk_qltServlet</servlet-name>
+    <url-pattern>/servlet/zk_qltServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>zh_dijServlet</servlet-name>
+    <url-pattern>/servlet/zh_dijServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zh_floServlet</servlet-name>
+    <url-pattern>/servlet/zh_floServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zh_kruServlet</servlet-name>
+    <url-pattern>/servlet/zh_kruServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zh_priServlet</servlet-name>
+    <url-pattern>/servlet/zh_priServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>wzw_hfmServlet</servlet-name>
+    <url-pattern>/servlet/wzw_hfmServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>wzw_hufServlet</servlet-name>
+    <url-pattern>/servlet/wzw_hufServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>wzw_jspServlet</servlet-name>
+    <url-pattern>/servlet/wzw_jspServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>wzw_kmpServlet</servlet-name>
+    <url-pattern>/servlet/wzw_kmpServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>gxt_heapServlet</servlet-name>
+    <url-pattern>/servlet/gxt_heapServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxt_quickServlet</servlet-name>
+    <url-pattern>/servlet/gxt_quickServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxt_shellServlet</servlet-name>
+    <url-pattern>/servlet/gxt_shellServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>gxt_mergeServlet</servlet-name>
+    <url-pattern>/servlet/gxt_mergeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>lyx_gjlServlet</servlet-name>
+    <url-pattern>/servlet/lyx_gjlServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lyx_haxServlet</servlet-name>
+    <url-pattern>/servlet/lyx_haxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lyx_tupServlet</servlet-name>
+    <url-pattern>/servlet/lyx_tupServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>lyx_scsServlet</servlet-name>
+    <url-pattern>/servlet/lyx_scsServlet</url-pattern>
+  </servlet-mapping>
+ 
+
+   <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file> 
+  </welcome-file-list>
+
+
+</web-app>
